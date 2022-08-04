@@ -1,123 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Akash Srinivasan</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <section id="landing-page">
-        <nav>
-            <figure>
-                <img id="personal-logo" src="./assets/logo.png" alt="">
+      <nav>
+        <figure>
+          <img id="personal-logo" src="./assets/logo.png" alt="" />
+        </figure>
+        <ul class="nav__links">
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >About</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Contact</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              ><i class="fas fa-adjust"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header__content">
+          <h1 class="title">Hey</h1>
+          <h1 class="title blue">I'm Akash</h1>
+          <p class="header__para">
+            Lorem <b class="blue"> ipsum dolor </b> sit amet consectetur
+            adipisicing elit. Facilis consequuntur ea commodi dolorum illum
+            repellendus.
+            <br />
+            Here's more <b class="blue"> about me </b>
+          </p>
+          <div class="social__list">
+            <a href="" target="_blank" class="social__link click">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="" target="_blank" class="social__link click">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="" target="_blank" class="social__link click">
+              <i class="fas fa-file-pdf"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fas fa-envelope"></i>
+      </button>
+      <a href="#projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+      <div class="modal">
+        <div class="modal__half modal__abt">
+          <h3 class="modal__title modal__title--about">About Me</h3>
+          <h4 class="modal__sub-title modal__sub-title--about">Frontend Engineer</h4>
+          <p class="modal__para">
+            Lorem ipsum dolor sit amet consectetur <b class="blue"> adipisicing elit. </b> Ipsa hic, inventore ab quidem assumenda saepe?
+            <br />
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error voluptates fugit <b class="blue"> nisi </b> ipsum, quas numquam!
+          </p>
+          <div class="modal__langs">
+            <figure class="modal__lang">
+                <img class="modal__lang--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="">
+                <span class="lang__name">HTML</span>
             </figure>
-            <ul class="nav__links">
-                <li class="nav__link">
-                    <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black">About</a>
-                </li>
-                <li class="nav__link">
-                    <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black">Projects</a>
-                </li>
-                <li class="nav__link">
-                    <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black">Contact</a>
-                </li>
-                <li class="nav__link">
-                    <a href="#" class="
-                    nav__link--anchor
-                    link__hover-effect
-                    link__hover-effect--black"><i class="fas fa-adjust"></i></a>
-                </li>
-            </ul>
-        </nav>
-        <header class="header">
-            <div class="header__content">
-                <h1 class="title">Hey</h1>
-                <h1 class="title blue">I'm Akash</h1>
-                <p class="header__para">
-                    Lorem <b class="blue"> ipsum dolor </b> sit amet consectetur adipisicing elit. Facilis consequuntur ea commodi dolorum illum repellendus.
-                    <br>
-                    Here's more <b class="blue"> about me </b>
-                </p>
-                <div class="social__list">
-                    <a href="" target="_blank" class="social__link click">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="" target="_blank" class="social__link click">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="" target="_blank" class="social__link click">
-                        <i class="fas fa-file-pdf"></i>
-                    </a>
-                </div>
-            </div>
-        </header>
-        <button class="mail__btn click">
-            <i class="fas fa-envelope"></i>
-        </button>
-        <a href="#projects" class="scroll">
-            <div class="scroll__icon click">
+            <figure class="modal__lang">
+                <img class="modal__lang--img"  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="">
+                <span class="lang__name">CSS</span>
+            </figure>
+            <figure class="modal__lang">
+                <img class="modal__lang--img" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="">
+                <span class="lang__name">React</span>
+            </figure>
+            <figure class="modal__lang">
+                <img class="modal__lang--img" src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="">
+                <span class="lang__name">JavaScript</span>
+            </figure>
+          </div>
 
+        </div>
+        <div class="modal__half modal__contact">
+            <h3 class="modal__title modal__title--contact">Let's Talk</h3>
+            <h3 class="modal__sub-title modal__sub-title--contact">Excited for new opportunities</h3>
+            <form id="contact__form" action="">
+                <div class="form__item">
+                    <label class="form__item--label">Name</label>
+                    <input class="input" name="user_name" type="text" required></input>
+                </div>
+                <div class="form__item">
+                    <label class="form__item--label">Email</label>
+                    <input class="input" name="user_email" type="email" required></input>
+                </div>
+                <div class="form__item">
+                    <label class="form__item--label">Message</label>
+                    <textarea class="input" name="message" type="text" required></textarea>
+                </div>
+                <button id="contact__submit" class="form__submit">
+                    Contact Me!
+                </button>
+            </form>
+            <div class="modal__overlay modal__overlay--loading">
+                <i class="fas fa-spinner"></i>
             </div>
-        </a>
+            <div class="modal__overlay modal__overlay--success">
+                Thanks for the message!
+            </div>
+        </div>
+        <i class="fas fa-times modal__exit click"></i>
+      </div>
     </section>
     <section id="projects">
-        <div class="container">
+      <div class="container">
         <div class="row">
-            <h1 class="section__title">
-                My <span class="blue">Projects</span>
-            </h1>
-            <ul class="project__list">
-                <li class="project">
-                    <div class="project__wrapper">
-                        <img src="./assets/blinker mockup.png" class="project__img" alt="">
-                        <div class="project__wrapper--bg">
-                        <div class="proj__desc">
-                            <h3 class="proj__desc--title">
-                                Car Sales Project
-                            </h3>
-                            <h4 class="proj__desc--sub-title"> 
-                                HTML, CSS, Javascript, Vue, Vuex
-                            </h4>
-                            <p class="proj__desc--para">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quod quaerat necessitatibus. Quos ad cumque ipsa inventore dolores reprehenderit, quidem ut architecto soluta porro molestias excepturi hic! Voluptas aliquid nam accusamus illum eaque facere nesciunt consequuntur omnis voluptate, obcaecati quae ab recusandae explicabo voluptatibus corporis hic repellat, placeat corrupti aperiam!
-                            </p>
-                            <div class="proj__desc--links">
-                                <a href="" target="_blank" class="proj__desc--link click">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="" target="_blank" class="proj__desc--link click">
-                                    <i class="fas fa-link"></i>
-                                </a>
-                            </div>
-                        </div>
+          <h1 class="section__title">My <span class="blue">Projects</span></h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg">
+                  <div class="proj__desc">
+                    <h3 class="proj__desc--title">Car Sales Project</h3>
+                    <h4 class="proj__desc--sub-title">
+                      HTML, CSS, Javascript, Vue, Vuex
+                    </h4>
+                    <p class="proj__desc--para">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Deserunt quod quaerat necessitatibus. Quos ad cumque ipsa
+                      inventore dolores reprehenderit, quidem ut architecto
+                      soluta porro molestias excepturi hic! Voluptas aliquid nam
+                      accusamus illum eaque facere nesciunt consequuntur omnis
+                      voluptate, obcaecati quae ab recusandae explicabo
+                      voluptatibus corporis hic repellat, placeat corrupti
+                      aperiam!
+                    </p>
+                    <div class="proj__desc--links">
+                      <a href="" target="_blank" class="proj__desc--link click">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a href="" target="_blank" class="proj__desc--link click">
+                        <i class="fas fa-link"></i>
+                      </a>
                     </div>
-                    </div>
-                </li>
-            </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
     </section>
     <footer>
-        <div class="container">
-            <figure>
-            <img src="./assets/logo.png" alt="">
-        </figure>
-        <div class="footer__social--list">
-            <a href=""></a>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img src="./assets/logo.png" class="footer__img" alt="" />
+          </figure>
+          <div class="footer__social--list">
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              GitHub
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Contact
+            </a>
+            <a
+              href=""
+              class="footer__social--link link__hover-effect link__hover-effect--white"
+            >
+              Resume
+            </a>
+          </div>
+          <div class="footer__copyright">
+            Copyright &copy Akash Srinivasan 2022
+          </div>
         </div>
-        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
